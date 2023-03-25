@@ -1,0 +1,20 @@
+{
+  "name": "milopetres.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass:watch": "sass -w scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milopetres/milopetres.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milopetres/milopetres.github.io/issues"
+  },
+  "homepage": "https://github.com/milopetres/milopetres.github.io#readme"
+}

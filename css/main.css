@@ -1,0 +1,73 @@
+.logo {
+  max-width: 100%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 1rem;
+  color: #2F2B23;
+}
+.cover * {
+  margin-block: 1rem;
+}
+.cover :first-child:not(.live-stream) {
+  margin-block-start: 0;
+}
+.cover :last-child:not(.live-stream) {
+  margin-block-end: 0;
+}
+.cover .live-stream {
+  margin-block: auto;
+}
+
+.with-sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.sidebar {
+  flex-basis: 40rem;
+  flex-grow: 1;
+}
+
+.not-sidebar {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-inline-size: 50%;
+}
+
+.header {
+  background-color: #F6F5F3;
+  color: #2F2B23;
+  margin: 1rem;
+  padding: 1rem;
+  font-family: "Alegreya", serif;
+}
+.header h1 {
+  font-size: 3.815rem;
+}
+
+.live-stream {
+  padding: 2rem;
+  margin: 2rem;
+  background-color: #EE855B;
+}
+
+.quote {
+  font-size: 1.25rem;
+  font-style: italic;
+  margin-left: 1rem;
+  padding: 1rem;
+  color: #69604f;
+}
+
+/*# sourceMappingURL=main.css.map */
