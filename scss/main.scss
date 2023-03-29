@@ -1,91 +1,33 @@
-@use "sass:color";
+@use "sass:map";
+// @import "../node_modules/bootstrap/scss/functions";
 
-$font-size-0: 3.815rem;
-$font-size-1: 3.052rem;
-$font-size-2: 2.441rem;
-$font-size-3: 1.953rem;
-$font-size-4: 1.563rem;
-$font-size-5: 1.25rem;
+// @import "../node_modules/bootstrap/scss/variables";
+// @import "../node_modules/bootstrap/scss/variables-dark";
 
-$color-fg: #F6F5F3;
-$color-bg: #2F2B23;
-$color-acc-1: #F6D28F;
-$color-acc-2: #EE855B;
+// // 5. Include remainder of required parts
+// @import "../node_modules/bootstrap/scss/maps";
+// @import "../node_modules/bootstrap/scss/mixins";
+// @import "../node_modules/bootstrap/scss/root";
 
-.logo {
-	max-width: 100%;
-}
+// @import "../node_modules/bootstrap/scss/reboot";
+// @import "../node_modules/bootstrap/scss/containers";
+// @import "../node_modules/bootstrap/scss/grid";
+// @import "../node_modules/bootstrap/scss/type";
+// @import "../node_modules/bootstrap/scss/badge";
+$font-family-base: "Roboto Slab", serif;
+@import "../node_modules/bootstrap/scss/bootstrap";
 
-.center {
-	display: flex;
-	justify-content: center;
-	width: 100%;
-	// background-color: $color-fg;
-}
+$milopetres-colours: (
+	"accent-1": #F88F6A,
+	"accent-2": #F0E7CC,
+	"bg": #50443F,
+	"fg": #A2928E
+);
 
-.cover {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	padding: 1rem;
-	color: $color-bg;
-
-	* {
-		margin-block: 1rem;
-	}
-
-	:first-child:not(.live-stream) {
-		margin-block-start: 0;
-	}
-
-	:last-child:not(.live-stream) {
-		margin-block-end: 0;
-	}
-
-	.live-stream {
-		margin-block: auto;
-	}
-}
-
-.with-sidebar {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 1rem;
-}
-
-.sidebar {
-	flex-basis: 40rem;
-	flex-grow: 1;
-}
-
-.not-sidebar {
-	flex-basis: 0;
-	flex-grow: 999;
-	min-inline-size: 50%;
+body {
+	background-color: $gray-100;
 }
 
 .header {
-	background-color: $color-fg;
-	color: $color-bg;
-	margin: 1rem;
-	padding: 1rem;
-	font-family: 'Alegreya', serif;
-
-	h1 {
-		font-size: $font-size-0;
-	}
-}
-
-.live-stream {
-	padding: 2rem;
-	margin: 2rem;
-	background-color: $color-acc-2;
-}
-
-.quote {
-	font-size: $font-size-5;
-	font-style: italic;
-	margin-left: 1rem;
-	padding: 1rem;
-	color: lighten($color-bg, 20%);
+	background-color: map.get($milopetres-colours, "accent-1");
 }
