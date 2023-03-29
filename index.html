@@ -8,47 +8,61 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;800&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;800&display=swap"
 			rel="stylesheet"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
 		/>
 		<link rel="stylesheet" href="css/main.css" />
-
-		<meta name="description" content="Λαογραφική εκπομπή Μυλόπετρες, live">
+		<meta
+			name="description"
+			content="Λαογραφική εκπομπή Μυλόπετρες, live"
+		/>
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
 	</head>
 	<body>
-		<div class="with-sidebar">
-			<div class="sidebar header">
-				<h1>Μυλόπετρες</h1>
-				<p class="quote">Μυλόπετρες από την αρχή μαζί σας</p>
-			</div>
-			<div class="not-sidebar">
-				<div class="center">
-					<div class="live-stream">
-
-						<!-- ΑΡΧΗ ΑΛΛΑΓΗΣ ΚΩΔΙKA -->
-
-						<iframe
-							src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fstefanos.badolas%2Fvideos%2F760401212042434%2F&show_text=false&width=560&t=0"
-							width="560"
-							height="314"
-							style="border: none; overflow: hidden"
-							scrolling="no"
-							frameborder="0"
-							allowfullscreen="true"
-							allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-							allowfullscreen="true"
-						></iframe>
-
-						<!-- ΤΕΛΟΣ ΑΛΛΑΓΗΣ ΚΩΔΙΚΑ-->
-
-					</div>
+		<div id="fb-root"></div>
+		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/el_GR/sdk.js#xfbml=1&version=v16.0" nonce="7iUY3HDB"></script>
+		<div class="container-fluid p-4 header">
+			<h1 class="display-3">Μυλόπετρες</h1>
+			<small class="text-body-secondary">με τον Στέφανο Μπαντόλα</small>
+		</div>
+		<div class="container-md mt-4">
+			<div class="row">
+				<div class="col-md">
+					<h3><span class="badge bg-danger">Live</span></h3>
 				</div>
 			</div>
+			<div class="row gy-3">
+				<div class="col-md-7">
+
+					<!-- ΑΛΛΑΓΗ ΚΩΔΙΚΑ ΑΡΧΗ -->
+
+					<div class="fb-video" data-href="https://www.facebook.com/stefanos.badolas/videos/741417377634913/" data-width="auto" data-show-text="false"><blockquote cite="https://www.facebook.com/stefanos.badolas/videos/741417377634913/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/stefanos.badolas/videos/741417377634913/">Μυλόπετρες 28/3/22</a><p>Μυλόπετρες Live-Δημοσκόπηση</p>Posted by <a href="https://www.facebook.com/stefanos.badolas">Stefanos Badolas</a> on Tuesday, 28 March 2023</blockquote></div>
+
+					<!-- ΑΛΛΑΓΗ ΚΩΔΙΚΑ ΤΕΛΟΣ -->
+
+					<a href="https://www.facebook.com/stefanos.badolas/live" class="btn btn-primary mt-3" target="_blank" rel="noopener noreferrer">παρακολουθηστε στο facebook</a>
+				</div>
+				<div class="col-md">
+					<blockquote class="blockquote">
+						<p>
+							Μυλόπετρες της Παράδοσης και του Πολιτισμού από την αρχή
+							μαζι σας. Με πολύ μουσική, νεα και αρκετό χιούμορ!
+						</p>
+					</blockquote>
+				</div>
+			</div>
+			<div class="row mt-5">
+				<div class="col-md">
+					<h2>Χορηγοί</h2>
+					<a href="https://varelialioutas.gr/" target="_blank" rel="noopener noreferrer">
+						<img src="img/lioutas_sponsor.png" class="img-fluid" alt="Χορηγός Στέργιος Λιούτας: Βιοτεχνία Βαρελοποιίας - Είδη Λαϊκής Τέχνης & Οικιακής Χρήσης">
+					</a>
+				</div>
+			</div>
+
 		</div>
-		<img src="img/lioutas_v.png" alt="" />
 	</body>
 </html>
