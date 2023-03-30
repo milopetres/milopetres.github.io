@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.language }}">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Μυλόπετρες | LIVE</title>
+		<title>{{ site.title }}</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;800&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="/css/main.css" />
 		<meta
 			name="description"
 			content="Λαογραφική εκπομπή Μυλόπετρες, live"
@@ -37,12 +37,8 @@
 			<div class="row gy-3">
 				<div class="col-md-7">
 
-					<!-- ΑΛΛΑΓΗ ΚΩΔΙΚΑ ΑΡΧΗ -->
-
-					<div class="fb-video" data-href="https://www.facebook.com/stefanos.badolas/videos/741417377634913/" data-width="auto" data-show-text="false"><blockquote cite="https://www.facebook.com/stefanos.badolas/videos/741417377634913/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/stefanos.badolas/videos/741417377634913/">Μυλόπετρες 28/3/22</a><p>Μυλόπετρες Live-Δημοσκόπηση</p>Δημοσιεύτηκε από <a href="https://www.facebook.com/stefanos.badolas">Stefanos Badolas</a> στις Τρίτη, 28 Μαρτίου 2023</blockquote></div>					
+					{% include "video.njk" %}
 					
-					<!-- ΑΛΛΑΓΗ ΚΩΔΙΚΑ ΤΕΛΟΣ -->
-
 					<a href="https://www.facebook.com/stefanos.badolas/live" class="btn btn-primary mt-3" target="_blank" rel="noopener noreferrer">παρακολουθηστε στο facebook</a>
 				</div>
 				<div class="col-md">

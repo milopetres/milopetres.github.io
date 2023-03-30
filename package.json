@@ -19,5 +19,8 @@
   "homepage": "https://github.com/milopetres/milopetres.github.io#readme",
   "dependencies": {
     "bootstrap": "^5.3.0-alpha2"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
   }
 }
