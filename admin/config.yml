@@ -12,4 +12,4 @@ collections:
         name: "livestream"
         file: "_includes/live.html"
         fields:
-          - {label: "Facebook Video", name: "body", widget: "code", default_language: "html", output_code_only: true}
+          - {label: "Facebook Video", name: "body", widget: "text"}
