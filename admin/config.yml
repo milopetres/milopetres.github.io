@@ -10,6 +10,6 @@ collections:
     files:
       - label: "Livestream video"
         name: "livestream"
-        file: "_site/_includes/live.html"
+        file: "_includes/live.html"
         fields:
           - {label: "Facebook Video", name: "fb-video", widget: "text"}
