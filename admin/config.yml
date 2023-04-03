@@ -6,10 +6,10 @@ public_folder: "img/uploads"
 
 collections:
   - name: "pages"
-    label: "Pages"
+    label: "Σελίδες"
     files:
-      - label: "Livestream video"
+      - label: "Βίντεο Αρχικής Σελίδας"
         name: "livestream"
         file: "_includes/live.html"
         fields:
-          - {label: "Facebook Video", name: "body", widget: "text"}
+          - {label: "Κώδικας Facebook", name: "body", widget: "text"}
