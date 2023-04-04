@@ -13,8 +13,8 @@ collections:
         file: "_includes/live.html"
         fields:
           - {label: "Κώδικας Facebook", name: "body", widget: "text"}
-      - label: "Site Config"
+      - label: "Ρυθμίσεις Ιστοσελίδας"
         name: "site"
         file: "_data/site.json"
         fields:
-          - {label: "Is Live", name: "isLive", widget: "boolean"}
+          - {label: "Στον αέρα", name: "isLive", widget: "boolean"}
