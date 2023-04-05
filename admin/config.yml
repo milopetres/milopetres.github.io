@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: dev/11ty
+  branch: prod/11ty
 media_folder: "_site/img/uploads"
 public_folder: "img/uploads"
 
