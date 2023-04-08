@@ -24,8 +24,6 @@
 		{% include "tracker.njk" %}
 	</head>
 	<body>
-		<div id="fb-root"></div>
-		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/el_GR/sdk.js#xfbml=1&version=v16.0" nonce="7iUY3HDB"></script>
 		<div class="container-fluid p-4 header">
 			<h1 class="display-3">Μυλόπετρες</h1>
 			<small class="text-body-secondary">με τον Στέφανο Μπαντόλα</small>
@@ -39,7 +37,9 @@
 			<div class="row gy-3">
 				<div class="col-md-7">
 
+					<div class="ratio ratio-16x9">
 					{% include "live.html" %}
+					</div>
 					
 					<a href="https://www.facebook.com/stefanos.badolas/live" class="btn btn-primary mt-3" target="_blank" rel="noopener noreferrer">παρακολουθηστε στο facebook</a>
 				</div>
